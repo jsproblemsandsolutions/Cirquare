@@ -1,0 +1,12 @@
+.pageNotFound{
+    text-align: center;
+    min-height: 400px;
+}
+
+.pt-7{
+    padding-top: 7rem!important;
+}
+
+.pageNotFound h1{
+    color: #0099ff;
+}

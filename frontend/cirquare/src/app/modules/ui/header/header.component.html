@@ -1,7 +1,10 @@
 <nav class="navbar navbar-light navbar-expand-sm">
   <a class="navbar-brand" href="#">
-    <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    Cirquare
+    <!-- <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+    <div class="logo">
+      <div class="inner-circle">&nbsp;</div>
+    </div>
+    <span class="brand-name">Cirquare</span>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,16 +12,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto mr-5">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" [routerLink]="['']">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" [routerLink]="['/about-us']">About us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" [routerLink]="['/contact-us']">Contact</a>
       </li>
     </ul>
   </div>

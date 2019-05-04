@@ -43,8 +43,15 @@
     left: 9px;
 }
 
+.brand-logo {
+    /* display: table-cell;
+    vertical-align: middle; */
+}
+
+
+
 .brand-name{
-    display: table-cell;
+    /* display: table-cell; */
     vertical-align: middle;
     padding-left: 10px;
     font-weight: 700;

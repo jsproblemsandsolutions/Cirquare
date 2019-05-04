@@ -1,0 +1,10 @@
+.pageNotFound {
+    text-align: center;
+    min-height: 80vh;
+    color: #eeeeee;
+}
+
+.py-6 {
+    padding-top: 6rem!important;
+    padding-bottom: 6rem!important;
+}

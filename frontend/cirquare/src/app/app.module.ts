@@ -6,12 +6,14 @@ import { UiModule } from './modules/ui/ui.module';
 import { RoutingModule } from './modules/routing/routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { PagenotfoundComponent } from './components/common/pagenotfound/pagenotfound.component';
+import { PageUnderConstructionComponent } from './components/common/page-under-construction/page-under-construction.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    PageUnderConstructionComponent
   ],
   imports: [
     BrowserModule,

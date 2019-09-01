@@ -4,6 +4,7 @@ img {
 
 #carouselCirquare{
     position: relative;
+    margin: 0 auto;
 }
 
 .scroll-arrow {

@@ -1,23 +1,23 @@
-.nav-link{
-    color: rgba(0,0,0,0.7)!important;
+.nav-link {
+    color: rgba(0, 0, 0, 0.7)!important;
     font-weight: 500;
 }
 
-.navbar-nav .active > .nav-link {
+.navbar-nav .active>.nav-link {
     /* color: rgba(255, 69, 0, 0.9)!important; */
-    color: rgba(255,255,255, 0.9)!important;;
+    color: rgba(255, 255, 255, 0.9)!important;
     background: #D65C00;
     margin-left: 5px;
     margin-right: 5px;
-    
 }
 
 .navbar-nav .nav-link:hover {
     /* color: rgba(255, 69, 0, 0.9)!important; */
-    color: rgba(255,255,255, 0.9)!important;;
+    color: rgba(255, 255, 255, 0.9)!important;
     background: #D65C00;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
+
 
 /* #D65C00 */
 
@@ -32,7 +32,7 @@
     vertical-align: middle;
 }
 
-.inner-circle{
+.inner-circle {
     display: inline-block;
     width: 21px;
     height: 22px;
@@ -43,15 +43,7 @@
     left: 9px;
 }
 
-.brand-logo {
-    /* display: table-cell;
-    vertical-align: middle; */
-}
-
-
-
-.brand-name{
-    /* display: table-cell; */
+.brand-name {
     vertical-align: middle;
     padding-left: 10px;
     font-weight: 700;

@@ -14,3 +14,27 @@
 .bg-gray {
     background: #F7F7F7;
 }
+
+.btn-cirquare {
+    background: #D65C00;
+    border-color: #D65C00;
+    min-width: 80px;
+    border-radius: 20px;
+}
+
+.btn-cirquare:hover{
+    background: #D65C00;
+    border-color: #D65C00;
+}
+
+.btn-cirquare:active, .btn-cirquare:focus {
+    background: #D65C00;
+    border-color: #D65C00;
+    box-shadow: 0 0 0 0.2rem rgba(214, 92, 0, 0.5)
+}
+
+.btn-cirquare:not(:disabled):not(.disabled):active {
+    background: #D65C00;
+    border-color: #D65C00;
+    box-shadow: 0 0 0 0.2rem rgba(214, 92, 0, 0.5)
+}

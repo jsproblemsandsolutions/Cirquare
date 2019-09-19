@@ -17,3 +17,7 @@ img {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
 }
+
+.heading-cirquare{
+    color: #D65C00;
+}

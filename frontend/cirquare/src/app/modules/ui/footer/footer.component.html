@@ -12,7 +12,9 @@
             </div>
         </div>
     </div>
-    <span class="up-arrow">
+    <span class="scroll-to-top" (click)="scrollToTop()" [ngClass]="{'show-scrollTop': windowScrolled}">
     <i class="fa fa-arrow-up"></i>
   </span>
 </footer>
+
+<!-- up-arrow -->

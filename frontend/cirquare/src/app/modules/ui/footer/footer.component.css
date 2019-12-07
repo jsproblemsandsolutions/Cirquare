@@ -41,3 +41,31 @@
     transition: all 0.3s ease-in;
     /* color: #333333; */
 }
+
+.scroll-to-top:hover {
+    color: #ffffff;
+    background: #D65C00;
+    /* transition: all 0.3s ease-in; */
+    /* color: #333333; */
+}
+
+.scroll-to-top {
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    background: transparent;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 44px;
+    cursor: pointer;
+   }
+
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }

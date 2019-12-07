@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from 'src/app/components/home/home.component';
 import { PagenotfoundComponent } from 'src/app/components/common/pagenotfound/pagenotfound.component';
 import { PageUnderConstructionComponent } from 'src/app/components/common/page-under-construction/page-under-construction.component';
+import { ContactUsComponent } from 'src/app/components/contact-us/contact-us.component';
 
 const routes: Routes = [
   {
@@ -24,7 +25,7 @@ const routes: Routes = [
   },
   {
     path: 'contact-us',
-    component: PageUnderConstructionComponent
+    component: ContactUsComponent
   },
   {
     path: '**',
